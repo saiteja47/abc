@@ -1,0 +1,1152 @@
+[0.801][INFO]: COMMAND InitSession {
+   "desiredCapabilities": {
+      "browserName": "chrome",
+      "chromeOptions": {
+         "args": [  ],
+         "extensions": [  ]
+      },
+      "platform": "ANY",
+      "version": ""
+   }
+}
+[0.803][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "show_welcome_page": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[0.803][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[0.991][INFO]: Launching chrome: "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --disable-background-networking --disable-client-side-phishing-detection --disable-component-update --disable-default-apps --disable-hang-monitor --disable-infobars --disable-popup-blocking --disable-prompt-on-repost --disable-sync --disable-web-resources --enable-logging --ignore-certificate-errors --load-component-extension="C:\Users\serech\AppData\Local\Temp\scoped_dir14880_11843\internal" --log-level=0 --metrics-recording-only --no-first-run --password-store=basic --remote-debugging-port=12453 --safebrowsing-disable-auto-update --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\serech\AppData\Local\Temp\scoped_dir14880_14866" data:,
+[2.575][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[3.607][INFO]: RESPONSE InitSession {
+   "acceptSslCerts": true,
+   "applicationCacheEnabled": false,
+   "browserConnectionEnabled": false,
+   "browserName": "chrome",
+   "chrome": {
+      "chromedriverVersion": "2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed)",
+      "userDataDir": "C:\\Users\\serech\\AppData\\Local\\Temp\\scoped_dir14880_14866"
+   },
+   "cssSelectorsEnabled": true,
+   "databaseEnabled": false,
+   "handlesAlerts": true,
+   "hasTouchScreen": false,
+   "javascriptEnabled": true,
+   "locationContextEnabled": true,
+   "mobileEmulationEnabled": false,
+   "nativeEvents": true,
+   "networkConnectionEnabled": false,
+   "pageLoadStrategy": "normal",
+   "platform": "Windows NT",
+   "rotatable": false,
+   "takesHeapSnapshot": true,
+   "takesScreenshot": true,
+   "~~~": "..."
+}
+[3.911][INFO]: COMMAND SetWindowSize {
+   "height": 1080,
+   "width": 1920,
+   "windowHandle": "current"
+}
+[3.914][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[4.932][INFO]: Waiting for pending navigations...
+[4.960][INFO]: Done waiting for pending navigations. Status: ok
+[5.090][INFO]: RESPONSE SetWindowSize
+[5.100][INFO]: COMMAND MaximizeWindow {
+   "windowHandle": "current"
+}
+[5.139][INFO]: RESPONSE MaximizeWindow
+[5.203][INFO]: COMMAND Navigate {
+   "url": "https://stockmatcher.proving.rv.jlr-apps.com/#/?_k=brkr4t"
+}
+[5.203][INFO]: Waiting for pending navigations...
+[5.215][INFO]: Done waiting for pending navigations. Status: ok
+[7.364][INFO]: Waiting for pending navigations...
+[15.185][INFO]: Done waiting for pending navigations. Status: ok
+[15.185][INFO]: RESPONSE Navigate
+[15.191][INFO]: COMMAND FindElement {
+   "using": "name",
+   "value": "userNameInput"
+}
+[15.191][INFO]: Waiting for pending navigations...
+[15.195][INFO]: Done waiting for pending navigations. Status: ok
+[15.209][INFO]: Waiting for pending navigations...
+[15.210][INFO]: Done waiting for pending navigations. Status: ok
+[15.210][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.5021808459010562-1"
+}
+[15.231][INFO]: COMMAND TypeElement {
+   "id": "0.5021808459010562-1",
+   "value": [ "A-ABDI" ]
+}
+[15.231][INFO]: Waiting for pending navigations...
+[15.231][INFO]: Done waiting for pending navigations. Status: ok
+[15.309][INFO]: Waiting for pending navigations...
+[15.317][INFO]: Done waiting for pending navigations. Status: ok
+[15.317][INFO]: RESPONSE TypeElement
+[15.321][INFO]: COMMAND FindElement {
+   "using": "name",
+   "value": "passwordInput"
+}
+[15.321][INFO]: Waiting for pending navigations...
+[15.321][INFO]: Done waiting for pending navigations. Status: ok
+[15.330][INFO]: Waiting for pending navigations...
+[15.334][INFO]: Done waiting for pending navigations. Status: ok
+[15.334][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.5021808459010562-2"
+}
+[15.337][INFO]: COMMAND TypeElement {
+   "id": "0.5021808459010562-2",
+   "value": [ "jlrprov" ]
+}
+[15.337][INFO]: Waiting for pending navigations...
+[15.338][INFO]: Done waiting for pending navigations. Status: ok
+[15.369][INFO]: Waiting for pending navigations...
+[15.393][INFO]: Done waiting for pending navigations. Status: ok
+[15.393][INFO]: RESPONSE TypeElement
+[15.398][INFO]: COMMAND FindElement {
+   "using": "tag name",
+   "value": "button"
+}
+[15.399][INFO]: Waiting for pending navigations...
+[15.399][INFO]: Done waiting for pending navigations. Status: ok
+[15.408][INFO]: Waiting for pending navigations...
+[15.409][INFO]: Done waiting for pending navigations. Status: ok
+[15.409][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.5021808459010562-3"
+}
+[15.413][INFO]: COMMAND ClickElement {
+   "id": "0.5021808459010562-3"
+}
+[15.413][INFO]: Waiting for pending navigations...
+[15.414][INFO]: Done waiting for pending navigations. Status: ok
+[15.455][INFO]: Waiting for pending navigations...
+[15.478][INFO]: Done waiting for pending navigations. Status: ok
+[15.478][INFO]: RESPONSE ClickElement
+[15.511][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[@id='model_name_discovery']"
+}
+[15.511][INFO]: Waiting for pending navigations...
+[15.511][INFO]: Done waiting for pending navigations. Status: ok
+[15.583][INFO]: Waiting for pending navigations...
+[15.583][INFO]: Done waiting for pending navigations. Status: ok
+[15.583][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='model_name_discovery']"}
+  (Session info: chrome=56.0.2924.87)
+[16.141][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[@id='model_name_discovery']"
+}
+[16.142][INFO]: Waiting for pending navigations...
+[16.145][INFO]: Done waiting for pending navigations. Status: ok
+[16.153][INFO]: Waiting for pending navigations...
+[16.154][INFO]: Done waiting for pending navigations. Status: ok
+[16.154][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='model_name_discovery']"}
+  (Session info: chrome=56.0.2924.87)
+[16.671][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[@id='model_name_discovery']"
+}
+[16.671][INFO]: Waiting for pending navigations...
+[16.673][INFO]: Done waiting for pending navigations. Status: ok
+[16.687][INFO]: Waiting for pending navigations...
+[16.689][INFO]: Done waiting for pending navigations. Status: ok
+[16.689][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='model_name_discovery']"}
+  (Session info: chrome=56.0.2924.87)
+[17.196][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[@id='model_name_discovery']"
+}
+[17.196][INFO]: Waiting for pending navigations...
+[17.198][INFO]: Done waiting for pending navigations. Status: ok
+[17.209][INFO]: Waiting for pending navigations...
+[17.211][INFO]: Done waiting for pending navigations. Status: ok
+[17.211][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='model_name_discovery']"}
+  (Session info: chrome=56.0.2924.87)
+[17.724][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[@id='model_name_discovery']"
+}
+[17.724][INFO]: Waiting for pending navigations...
+[17.727][INFO]: Done waiting for pending navigations. Status: ok
+[17.743][INFO]: Waiting for pending navigations...
+[17.744][INFO]: Done waiting for pending navigations. Status: ok
+[17.744][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='model_name_discovery']"}
+  (Session info: chrome=56.0.2924.87)
+[18.262][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[@id='model_name_discovery']"
+}
+[18.263][INFO]: Waiting for pending navigations...
+[18.265][INFO]: Done waiting for pending navigations. Status: ok
+[18.277][INFO]: Waiting for pending navigations...
+[18.279][INFO]: Done waiting for pending navigations. Status: ok
+[18.279][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='model_name_discovery']"}
+  (Session info: chrome=56.0.2924.87)
+[18.788][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[@id='model_name_discovery']"
+}
+[18.789][INFO]: Waiting for pending navigations...
+[18.791][INFO]: Done waiting for pending navigations. Status: ok
+[18.803][INFO]: Waiting for pending navigations...
+[18.805][INFO]: Done waiting for pending navigations. Status: ok
+[18.805][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='model_name_discovery']"}
+  (Session info: chrome=56.0.2924.87)
+[19.312][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[@id='model_name_discovery']"
+}
+[19.312][INFO]: Waiting for pending navigations...
+[19.313][INFO]: Done waiting for pending navigations. Status: ok
+[19.317][INFO]: Waiting for pending navigations...
+[19.318][INFO]: Done waiting for pending navigations. Status: ok
+[19.318][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='model_name_discovery']"}
+  (Session info: chrome=56.0.2924.87)
+[19.821][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[@id='model_name_discovery']"
+}
+[19.821][INFO]: Waiting for pending navigations...
+[19.821][INFO]: Done waiting for pending navigations. Status: ok
+[19.824][INFO]: Waiting for pending navigations...
+[19.825][INFO]: Done waiting for pending navigations. Status: ok
+[19.825][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='model_name_discovery']"}
+  (Session info: chrome=56.0.2924.87)
+[20.330][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[@id='model_name_discovery']"
+}
+[20.330][INFO]: Waiting for pending navigations...
+[20.331][INFO]: Done waiting for pending navigations. Status: ok
+[20.334][INFO]: Waiting for pending navigations...
+[20.335][INFO]: Done waiting for pending navigations. Status: ok
+[20.335][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='model_name_discovery']"}
+  (Session info: chrome=56.0.2924.87)
+[20.843][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[@id='model_name_discovery']"
+}
+[20.843][INFO]: Waiting for pending navigations...
+[20.845][INFO]: Done waiting for pending navigations. Status: ok
+[20.857][INFO]: Waiting for pending navigations...
+[20.859][INFO]: Done waiting for pending navigations. Status: ok
+[20.859][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='model_name_discovery']"}
+  (Session info: chrome=56.0.2924.87)
+[21.374][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[@id='model_name_discovery']"
+}
+[21.374][INFO]: Waiting for pending navigations...
+[21.376][INFO]: Done waiting for pending navigations. Status: ok
+[21.389][INFO]: Waiting for pending navigations...
+[21.391][INFO]: Done waiting for pending navigations. Status: ok
+[21.391][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='model_name_discovery']"}
+  (Session info: chrome=56.0.2924.87)
+[21.903][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[@id='model_name_discovery']"
+}
+[21.903][INFO]: Waiting for pending navigations...
+[21.905][INFO]: Done waiting for pending navigations. Status: ok
+[21.916][INFO]: Waiting for pending navigations...
+[21.920][INFO]: Done waiting for pending navigations. Status: ok
+[21.920][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='model_name_discovery']"}
+  (Session info: chrome=56.0.2924.87)
+[22.444][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[@id='model_name_discovery']"
+}
+[22.444][INFO]: Waiting for pending navigations...
+[22.446][INFO]: Done waiting for pending navigations. Status: ok
+[22.454][INFO]: Waiting for pending navigations...
+[22.455][INFO]: Done waiting for pending navigations. Status: ok
+[22.455][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='model_name_discovery']"}
+  (Session info: chrome=56.0.2924.87)
+[22.962][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[@id='model_name_discovery']"
+}
+[22.962][INFO]: Waiting for pending navigations...
+[22.964][INFO]: Done waiting for pending navigations. Status: ok
+[22.971][INFO]: Waiting for pending navigations...
+[22.972][INFO]: Done waiting for pending navigations. Status: ok
+[22.973][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='model_name_discovery']"}
+  (Session info: chrome=56.0.2924.87)
+[23.479][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[@id='model_name_discovery']"
+}
+[23.479][INFO]: Waiting for pending navigations...
+[23.480][INFO]: Done waiting for pending navigations. Status: ok
+[23.484][INFO]: Waiting for pending navigations...
+[23.485][INFO]: Done waiting for pending navigations. Status: ok
+[23.485][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='model_name_discovery']"}
+  (Session info: chrome=56.0.2924.87)
+[23.996][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[@id='model_name_discovery']"
+}
+[23.996][INFO]: Waiting for pending navigations...
+[23.998][INFO]: Done waiting for pending navigations. Status: ok
+[24.007][INFO]: Waiting for pending navigations...
+[24.008][INFO]: Done waiting for pending navigations. Status: ok
+[24.008][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='model_name_discovery']"}
+  (Session info: chrome=56.0.2924.87)
+[24.519][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[@id='model_name_discovery']"
+}
+[24.519][INFO]: Waiting for pending navigations...
+[24.521][INFO]: Done waiting for pending navigations. Status: ok
+[24.535][INFO]: Waiting for pending navigations...
+[24.537][INFO]: Done waiting for pending navigations. Status: ok
+[24.537][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='model_name_discovery']"}
+  (Session info: chrome=56.0.2924.87)
+[25.053][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[@id='model_name_discovery']"
+}
+[25.053][INFO]: Waiting for pending navigations...
+[25.056][INFO]: Done waiting for pending navigations. Status: ok
+[25.066][INFO]: Waiting for pending navigations...
+[25.067][INFO]: Done waiting for pending navigations. Status: ok
+[25.067][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='model_name_discovery']"}
+  (Session info: chrome=56.0.2924.87)
+[25.572][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[@id='model_name_discovery']"
+}
+[25.572][INFO]: Waiting for pending navigations...
+[25.573][INFO]: Done waiting for pending navigations. Status: ok
+[25.576][INFO]: Waiting for pending navigations...
+[25.577][INFO]: Done waiting for pending navigations. Status: ok
+[25.577][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='model_name_discovery']"}
+  (Session info: chrome=56.0.2924.87)
+[26.088][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[@id='model_name_discovery']"
+}
+[26.089][INFO]: Waiting for pending navigations...
+[26.091][INFO]: Done waiting for pending navigations. Status: ok
+[26.104][INFO]: Waiting for pending navigations...
+[26.106][INFO]: Done waiting for pending navigations. Status: ok
+[26.106][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='model_name_discovery']"}
+  (Session info: chrome=56.0.2924.87)
+[26.622][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[@id='model_name_discovery']"
+}
+[26.623][INFO]: Waiting for pending navigations...
+[26.625][INFO]: Done waiting for pending navigations. Status: ok
+[26.638][INFO]: Waiting for pending navigations...
+[26.640][INFO]: Done waiting for pending navigations. Status: ok
+[26.640][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='model_name_discovery']"}
+  (Session info: chrome=56.0.2924.87)
+[27.146][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[@id='model_name_discovery']"
+}
+[27.146][INFO]: Waiting for pending navigations...
+[27.147][INFO]: Done waiting for pending navigations. Status: ok
+[27.150][INFO]: Waiting for pending navigations...
+[27.150][INFO]: Done waiting for pending navigations. Status: ok
+[27.150][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='model_name_discovery']"}
+  (Session info: chrome=56.0.2924.87)
+[27.657][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[@id='model_name_discovery']"
+}
+[27.657][INFO]: Waiting for pending navigations...
+[27.659][INFO]: Done waiting for pending navigations. Status: ok
+[27.667][INFO]: Waiting for pending navigations...
+[27.668][INFO]: Done waiting for pending navigations. Status: ok
+[27.668][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='model_name_discovery']"}
+  (Session info: chrome=56.0.2924.87)
+[28.178][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[@id='model_name_discovery']"
+}
+[28.178][INFO]: Waiting for pending navigations...
+[28.179][INFO]: Done waiting for pending navigations. Status: ok
+[28.184][INFO]: Waiting for pending navigations...
+[28.184][INFO]: Done waiting for pending navigations. Status: ok
+[28.184][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='model_name_discovery']"}
+  (Session info: chrome=56.0.2924.87)
+[28.697][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[@id='model_name_discovery']"
+}
+[28.697][INFO]: Waiting for pending navigations...
+[28.698][INFO]: Done waiting for pending navigations. Status: ok
+[28.701][INFO]: Waiting for pending navigations...
+[28.702][INFO]: Done waiting for pending navigations. Status: ok
+[28.702][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='model_name_discovery']"}
+  (Session info: chrome=56.0.2924.87)
+[29.206][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[@id='model_name_discovery']"
+}
+[29.206][INFO]: Waiting for pending navigations...
+[29.207][INFO]: Done waiting for pending navigations. Status: ok
+[29.213][INFO]: Waiting for pending navigations...
+[29.215][INFO]: Done waiting for pending navigations. Status: ok
+[29.215][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='model_name_discovery']"}
+  (Session info: chrome=56.0.2924.87)
+[29.722][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[@id='model_name_discovery']"
+}
+[29.722][INFO]: Waiting for pending navigations...
+[29.723][INFO]: Done waiting for pending navigations. Status: ok
+[29.731][INFO]: Waiting for pending navigations...
+[29.732][INFO]: Done waiting for pending navigations. Status: ok
+[29.732][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='model_name_discovery']"}
+  (Session info: chrome=56.0.2924.87)
+[30.236][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[@id='model_name_discovery']"
+}
+[30.236][INFO]: Waiting for pending navigations...
+[30.237][INFO]: Done waiting for pending navigations. Status: ok
+[30.241][INFO]: Waiting for pending navigations...
+[30.242][INFO]: Done waiting for pending navigations. Status: ok
+[30.242][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='model_name_discovery']"}
+  (Session info: chrome=56.0.2924.87)
+[30.745][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[@id='model_name_discovery']"
+}
+[30.745][INFO]: Waiting for pending navigations...
+[30.746][INFO]: Done waiting for pending navigations. Status: ok
+[30.751][INFO]: Waiting for pending navigations...
+[30.752][INFO]: Done waiting for pending navigations. Status: ok
+[30.752][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='model_name_discovery']"}
+  (Session info: chrome=56.0.2924.87)
+[31.263][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[@id='model_name_discovery']"
+}
+[31.264][INFO]: Waiting for pending navigations...
+[31.266][INFO]: Done waiting for pending navigations. Status: ok
+[31.272][INFO]: Waiting for pending navigations...
+[31.273][INFO]: Done waiting for pending navigations. Status: ok
+[31.273][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='model_name_discovery']"}
+  (Session info: chrome=56.0.2924.87)
+[31.779][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[@id='model_name_discovery']"
+}
+[31.779][INFO]: Waiting for pending navigations...
+[31.780][INFO]: Done waiting for pending navigations. Status: ok
+[31.788][INFO]: Waiting for pending navigations...
+[31.790][INFO]: Done waiting for pending navigations. Status: ok
+[31.790][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='model_name_discovery']"}
+  (Session info: chrome=56.0.2924.87)
+[32.296][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[@id='model_name_discovery']"
+}
+[32.296][INFO]: Waiting for pending navigations...
+[32.297][INFO]: Done waiting for pending navigations. Status: ok
+[32.306][INFO]: Waiting for pending navigations...
+[32.307][INFO]: Done waiting for pending navigations. Status: ok
+[32.307][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='model_name_discovery']"}
+  (Session info: chrome=56.0.2924.87)
+[32.818][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[@id='model_name_discovery']"
+}
+[32.818][INFO]: Waiting for pending navigations...
+[32.820][INFO]: Done waiting for pending navigations. Status: ok
+[32.832][INFO]: Waiting for pending navigations...
+[32.834][INFO]: Done waiting for pending navigations. Status: ok
+[32.834][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='model_name_discovery']"}
+  (Session info: chrome=56.0.2924.87)
+[33.345][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[@id='model_name_discovery']"
+}
+[33.345][INFO]: Waiting for pending navigations...
+[33.346][INFO]: Done waiting for pending navigations. Status: ok
+[33.355][INFO]: Waiting for pending navigations...
+[33.356][INFO]: Done waiting for pending navigations. Status: ok
+[33.356][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='model_name_discovery']"}
+  (Session info: chrome=56.0.2924.87)
+[33.868][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[@id='model_name_discovery']"
+}
+[33.868][INFO]: Waiting for pending navigations...
+[33.870][INFO]: Done waiting for pending navigations. Status: ok
+[33.879][INFO]: Waiting for pending navigations...
+[33.880][INFO]: Done waiting for pending navigations. Status: ok
+[33.880][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='model_name_discovery']"}
+  (Session info: chrome=56.0.2924.87)
+[34.383][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[@id='model_name_discovery']"
+}
+[34.383][INFO]: Waiting for pending navigations...
+[34.384][INFO]: Done waiting for pending navigations. Status: ok
+[34.387][INFO]: Waiting for pending navigations...
+[34.388][INFO]: Done waiting for pending navigations. Status: ok
+[34.388][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='model_name_discovery']"}
+  (Session info: chrome=56.0.2924.87)
+[34.891][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[@id='model_name_discovery']"
+}
+[34.891][INFO]: Waiting for pending navigations...
+[34.892][INFO]: Done waiting for pending navigations. Status: ok
+[34.896][INFO]: Waiting for pending navigations...
+[34.897][INFO]: Done waiting for pending navigations. Status: ok
+[34.897][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='model_name_discovery']"}
+  (Session info: chrome=56.0.2924.87)
+[35.402][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[@id='model_name_discovery']"
+}
+[35.402][INFO]: Waiting for pending navigations...
+[35.403][INFO]: Done waiting for pending navigations. Status: ok
+[35.409][INFO]: Waiting for pending navigations...
+[35.409][INFO]: Done waiting for pending navigations. Status: ok
+[35.409][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='model_name_discovery']"}
+  (Session info: chrome=56.0.2924.87)
+[35.915][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[@id='model_name_discovery']"
+}
+[35.915][INFO]: Waiting for pending navigations...
+[35.919][INFO]: Done waiting for pending navigations. Status: ok
+[35.923][INFO]: Waiting for pending navigations...
+[35.923][INFO]: Done waiting for pending navigations. Status: ok
+[35.923][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='model_name_discovery']"}
+  (Session info: chrome=56.0.2924.87)
+[36.429][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[@id='model_name_discovery']"
+}
+[36.429][INFO]: Waiting for pending navigations...
+[36.430][INFO]: Done waiting for pending navigations. Status: ok
+[36.437][INFO]: Waiting for pending navigations...
+[36.438][INFO]: Done waiting for pending navigations. Status: ok
+[36.438][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='model_name_discovery']"}
+  (Session info: chrome=56.0.2924.87)
+[36.948][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[@id='model_name_discovery']"
+}
+[36.948][INFO]: Waiting for pending navigations...
+[36.949][INFO]: Done waiting for pending navigations. Status: ok
+[36.959][INFO]: Waiting for pending navigations...
+[36.961][INFO]: Done waiting for pending navigations. Status: ok
+[36.961][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='model_name_discovery']"}
+  (Session info: chrome=56.0.2924.87)
+[37.465][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[@id='model_name_discovery']"
+}
+[37.466][INFO]: Waiting for pending navigations...
+[37.466][INFO]: Done waiting for pending navigations. Status: ok
+[37.470][INFO]: Waiting for pending navigations...
+[37.470][INFO]: Done waiting for pending navigations. Status: ok
+[37.470][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='model_name_discovery']"}
+  (Session info: chrome=56.0.2924.87)
+[37.977][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[@id='model_name_discovery']"
+}
+[37.977][INFO]: Waiting for pending navigations...
+[37.980][INFO]: Done waiting for pending navigations. Status: ok
+[37.993][INFO]: Waiting for pending navigations...
+[37.995][INFO]: Done waiting for pending navigations. Status: ok
+[37.995][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='model_name_discovery']"}
+  (Session info: chrome=56.0.2924.87)
+[38.504][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[@id='model_name_discovery']"
+}
+[38.504][INFO]: Waiting for pending navigations...
+[38.506][INFO]: Done waiting for pending navigations. Status: ok
+[38.518][INFO]: Waiting for pending navigations...
+[38.520][INFO]: Done waiting for pending navigations. Status: ok
+[38.520][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='model_name_discovery']"}
+  (Session info: chrome=56.0.2924.87)
+[39.033][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[@id='model_name_discovery']"
+}
+[39.033][INFO]: Waiting for pending navigations...
+[39.054][INFO]: Done waiting for pending navigations. Status: ok
+[39.067][INFO]: Waiting for pending navigations...
+[39.068][INFO]: Done waiting for pending navigations. Status: ok
+[39.068][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='model_name_discovery']"}
+  (Session info: chrome=56.0.2924.87)
+[39.575][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[@id='model_name_discovery']"
+}
+[39.575][INFO]: Waiting for pending navigations...
+[39.577][INFO]: Done waiting for pending navigations. Status: ok
+[39.585][INFO]: Waiting for pending navigations...
+[39.586][INFO]: Done waiting for pending navigations. Status: ok
+[39.586][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='model_name_discovery']"}
+  (Session info: chrome=56.0.2924.87)
+[40.097][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[@id='model_name_discovery']"
+}
+[40.097][INFO]: Waiting for pending navigations...
+[40.099][INFO]: Done waiting for pending navigations. Status: ok
+[40.111][INFO]: Waiting for pending navigations...
+[40.113][INFO]: Done waiting for pending navigations. Status: ok
+[40.113][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='model_name_discovery']"}
+  (Session info: chrome=56.0.2924.87)
+[40.622][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[@id='model_name_discovery']"
+}
+[40.623][INFO]: Waiting for pending navigations...
+[40.625][INFO]: Done waiting for pending navigations. Status: ok
+[40.636][INFO]: Waiting for pending navigations...
+[40.638][INFO]: Done waiting for pending navigations. Status: ok
+[40.638][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='model_name_discovery']"}
+  (Session info: chrome=56.0.2924.87)
+[41.149][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[@id='model_name_discovery']"
+}
+[41.149][INFO]: Waiting for pending navigations...
+[41.151][INFO]: Done waiting for pending navigations. Status: ok
+[41.162][INFO]: Waiting for pending navigations...
+[41.164][INFO]: Done waiting for pending navigations. Status: ok
+[41.164][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='model_name_discovery']"}
+  (Session info: chrome=56.0.2924.87)
+[41.670][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[@id='model_name_discovery']"
+}
+[41.670][INFO]: Waiting for pending navigations...
+[41.671][INFO]: Done waiting for pending navigations. Status: ok
+[41.677][INFO]: Waiting for pending navigations...
+[41.678][INFO]: Done waiting for pending navigations. Status: ok
+[41.678][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='model_name_discovery']"}
+  (Session info: chrome=56.0.2924.87)
+[42.184][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[@id='model_name_discovery']"
+}
+[42.184][INFO]: Waiting for pending navigations...
+[42.186][INFO]: Done waiting for pending navigations. Status: ok
+[42.193][INFO]: Waiting for pending navigations...
+[42.195][INFO]: Done waiting for pending navigations. Status: ok
+[42.195][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='model_name_discovery']"}
+  (Session info: chrome=56.0.2924.87)
+[42.702][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[@id='model_name_discovery']"
+}
+[42.702][INFO]: Waiting for pending navigations...
+[42.704][INFO]: Done waiting for pending navigations. Status: ok
+[42.717][INFO]: Waiting for pending navigations...
+[42.718][INFO]: Done waiting for pending navigations. Status: ok
+[42.718][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='model_name_discovery']"}
+  (Session info: chrome=56.0.2924.87)
+[43.229][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[@id='model_name_discovery']"
+}
+[43.229][INFO]: Waiting for pending navigations...
+[43.231][INFO]: Done waiting for pending navigations. Status: ok
+[43.242][INFO]: Waiting for pending navigations...
+[43.244][INFO]: Done waiting for pending navigations. Status: ok
+[43.244][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='model_name_discovery']"}
+  (Session info: chrome=56.0.2924.87)
+[43.754][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[@id='model_name_discovery']"
+}
+[43.754][INFO]: Waiting for pending navigations...
+[43.756][INFO]: Done waiting for pending navigations. Status: ok
+[43.768][INFO]: Waiting for pending navigations...
+[43.770][INFO]: Done waiting for pending navigations. Status: ok
+[43.770][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='model_name_discovery']"}
+  (Session info: chrome=56.0.2924.87)
+[44.279][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[@id='model_name_discovery']"
+}
+[44.279][INFO]: Waiting for pending navigations...
+[44.282][INFO]: Done waiting for pending navigations. Status: ok
+[44.294][INFO]: Waiting for pending navigations...
+[44.296][INFO]: Done waiting for pending navigations. Status: ok
+[44.296][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='model_name_discovery']"}
+  (Session info: chrome=56.0.2924.87)
+[44.809][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[@id='model_name_discovery']"
+}
+[44.809][INFO]: Waiting for pending navigations...
+[44.811][INFO]: Done waiting for pending navigations. Status: ok
+[44.824][INFO]: Waiting for pending navigations...
+[44.825][INFO]: Done waiting for pending navigations. Status: ok
+[44.826][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='model_name_discovery']"}
+  (Session info: chrome=56.0.2924.87)
+[45.337][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[@id='model_name_discovery']"
+}
+[45.337][INFO]: Waiting for pending navigations...
+[45.339][INFO]: Done waiting for pending navigations. Status: ok
+[45.347][INFO]: Waiting for pending navigations...
+[45.348][INFO]: Done waiting for pending navigations. Status: ok
+[45.348][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='model_name_discovery']"}
+  (Session info: chrome=56.0.2924.87)
+[45.855][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[@id='model_name_discovery']"
+}
+[45.856][INFO]: Waiting for pending navigations...
+[45.858][INFO]: Done waiting for pending navigations. Status: ok
+[45.871][INFO]: Waiting for pending navigations...
+[45.873][INFO]: Done waiting for pending navigations. Status: ok
+[45.873][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='model_name_discovery']"}
+  (Session info: chrome=56.0.2924.87)
+[46.383][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[@id='model_name_discovery']"
+}
+[46.383][INFO]: Waiting for pending navigations...
+[46.385][INFO]: Done waiting for pending navigations. Status: ok
+[46.396][INFO]: Waiting for pending navigations...
+[46.398][INFO]: Done waiting for pending navigations. Status: ok
+[46.398][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='model_name_discovery']"}
+  (Session info: chrome=56.0.2924.87)
+[46.910][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[@id='model_name_discovery']"
+}
+[46.910][INFO]: Waiting for pending navigations...
+[46.913][INFO]: Done waiting for pending navigations. Status: ok
+[46.932][INFO]: Waiting for pending navigations...
+[46.933][INFO]: Done waiting for pending navigations. Status: ok
+[46.933][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='model_name_discovery']"}
+  (Session info: chrome=56.0.2924.87)
+[47.444][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[@id='model_name_discovery']"
+}
+[47.444][INFO]: Waiting for pending navigations...
+[47.446][INFO]: Done waiting for pending navigations. Status: ok
+[47.459][INFO]: Waiting for pending navigations...
+[47.468][INFO]: Done waiting for pending navigations. Status: ok
+[47.469][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='model_name_discovery']"}
+  (Session info: chrome=56.0.2924.87)
+[47.974][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[@id='model_name_discovery']"
+}
+[47.974][INFO]: Waiting for pending navigations...
+[47.974][INFO]: Done waiting for pending navigations. Status: ok
+[47.978][INFO]: Waiting for pending navigations...
+[47.978][INFO]: Done waiting for pending navigations. Status: ok
+[47.978][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='model_name_discovery']"}
+  (Session info: chrome=56.0.2924.87)
+[48.484][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[@id='model_name_discovery']"
+}
+[48.484][INFO]: Waiting for pending navigations...
+[48.486][INFO]: Done waiting for pending navigations. Status: ok
+[48.498][INFO]: Waiting for pending navigations...
+[48.500][INFO]: Done waiting for pending navigations. Status: ok
+[48.500][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='model_name_discovery']"}
+  (Session info: chrome=56.0.2924.87)
+[49.012][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[@id='model_name_discovery']"
+}
+[49.012][INFO]: Waiting for pending navigations...
+[49.015][INFO]: Done waiting for pending navigations. Status: ok
+[49.026][INFO]: Waiting for pending navigations...
+[49.027][INFO]: Done waiting for pending navigations. Status: ok
+[49.027][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='model_name_discovery']"}
+  (Session info: chrome=56.0.2924.87)
+[49.535][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[@id='model_name_discovery']"
+}
+[49.535][INFO]: Waiting for pending navigations...
+[49.537][INFO]: Done waiting for pending navigations. Status: ok
+[49.546][INFO]: Waiting for pending navigations...
+[49.547][INFO]: Done waiting for pending navigations. Status: ok
+[49.547][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='model_name_discovery']"}
+  (Session info: chrome=56.0.2924.87)
+[50.060][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[@id='model_name_discovery']"
+}
+[50.060][INFO]: Waiting for pending navigations...
+[50.062][INFO]: Done waiting for pending navigations. Status: ok
+[50.074][INFO]: Waiting for pending navigations...
+[50.076][INFO]: Done waiting for pending navigations. Status: ok
+[50.076][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='model_name_discovery']"}
+  (Session info: chrome=56.0.2924.87)
+[50.588][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[@id='model_name_discovery']"
+}
+[50.588][INFO]: Waiting for pending navigations...
+[50.591][INFO]: Done waiting for pending navigations. Status: ok
+[50.600][INFO]: Waiting for pending navigations...
+[50.601][INFO]: Done waiting for pending navigations. Status: ok
+[50.601][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='model_name_discovery']"}
+  (Session info: chrome=56.0.2924.87)
+[51.109][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[@id='model_name_discovery']"
+}
+[51.109][INFO]: Waiting for pending navigations...
+[51.111][INFO]: Done waiting for pending navigations. Status: ok
+[51.123][INFO]: Waiting for pending navigations...
+[51.125][INFO]: Done waiting for pending navigations. Status: ok
+[51.125][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='model_name_discovery']"}
+  (Session info: chrome=56.0.2924.87)
+[51.633][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[@id='model_name_discovery']"
+}
+[51.633][INFO]: Waiting for pending navigations...
+[51.635][INFO]: Done waiting for pending navigations. Status: ok
+[51.645][INFO]: Waiting for pending navigations...
+[51.646][INFO]: Done waiting for pending navigations. Status: ok
+[51.646][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='model_name_discovery']"}
+  (Session info: chrome=56.0.2924.87)
+[52.155][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[@id='model_name_discovery']"
+}
+[52.155][INFO]: Waiting for pending navigations...
+[52.157][INFO]: Done waiting for pending navigations. Status: ok
+[52.168][INFO]: Waiting for pending navigations...
+[52.170][INFO]: Done waiting for pending navigations. Status: ok
+[52.170][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='model_name_discovery']"}
+  (Session info: chrome=56.0.2924.87)
+[52.679][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[@id='model_name_discovery']"
+}
+[52.679][INFO]: Waiting for pending navigations...
+[52.681][INFO]: Done waiting for pending navigations. Status: ok
+[52.695][INFO]: Waiting for pending navigations...
+[52.696][INFO]: Done waiting for pending navigations. Status: ok
+[52.697][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='model_name_discovery']"}
+  (Session info: chrome=56.0.2924.87)
+[53.206][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[@id='model_name_discovery']"
+}
+[53.206][INFO]: Waiting for pending navigations...
+[53.208][INFO]: Done waiting for pending navigations. Status: ok
+[53.219][INFO]: Waiting for pending navigations...
+[53.221][INFO]: Done waiting for pending navigations. Status: ok
+[53.221][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='model_name_discovery']"}
+  (Session info: chrome=56.0.2924.87)
+[53.731][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[@id='model_name_discovery']"
+}
+[53.731][INFO]: Waiting for pending navigations...
+[53.733][INFO]: Done waiting for pending navigations. Status: ok
+[53.745][INFO]: Waiting for pending navigations...
+[53.747][INFO]: Done waiting for pending navigations. Status: ok
+[53.747][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='model_name_discovery']"}
+  (Session info: chrome=56.0.2924.87)
+[54.255][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[@id='model_name_discovery']"
+}
+[54.255][INFO]: Waiting for pending navigations...
+[54.256][INFO]: Done waiting for pending navigations. Status: ok
+[54.263][INFO]: Waiting for pending navigations...
+[54.264][INFO]: Done waiting for pending navigations. Status: ok
+[54.264][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='model_name_discovery']"}
+  (Session info: chrome=56.0.2924.87)
+[54.779][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[@id='model_name_discovery']"
+}
+[54.780][INFO]: Waiting for pending navigations...
+[54.782][INFO]: Done waiting for pending navigations. Status: ok
+[54.790][INFO]: Waiting for pending navigations...
+[54.792][INFO]: Done waiting for pending navigations. Status: ok
+[54.792][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='model_name_discovery']"}
+  (Session info: chrome=56.0.2924.87)
+[55.299][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[@id='model_name_discovery']"
+}
+[55.300][INFO]: Waiting for pending navigations...
+[55.302][INFO]: Done waiting for pending navigations. Status: ok
+[55.313][INFO]: Waiting for pending navigations...
+[55.315][INFO]: Done waiting for pending navigations. Status: ok
+[55.315][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='model_name_discovery']"}
+  (Session info: chrome=56.0.2924.87)
+[55.823][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[@id='model_name_discovery']"
+}
+[55.824][INFO]: Waiting for pending navigations...
+[55.826][INFO]: Done waiting for pending navigations. Status: ok
+[55.839][INFO]: Waiting for pending navigations...
+[55.841][INFO]: Done waiting for pending navigations. Status: ok
+[55.841][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='model_name_discovery']"}
+  (Session info: chrome=56.0.2924.87)
+[56.351][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[@id='model_name_discovery']"
+}
+[56.351][INFO]: Waiting for pending navigations...
+[56.353][INFO]: Done waiting for pending navigations. Status: ok
+[56.364][INFO]: Waiting for pending navigations...
+[56.366][INFO]: Done waiting for pending navigations. Status: ok
+[56.366][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='model_name_discovery']"}
+  (Session info: chrome=56.0.2924.87)
+[56.875][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[@id='model_name_discovery']"
+}
+[56.875][INFO]: Waiting for pending navigations...
+[56.878][INFO]: Done waiting for pending navigations. Status: ok
+[56.892][INFO]: Waiting for pending navigations...
+[56.894][INFO]: Done waiting for pending navigations. Status: ok
+[56.894][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='model_name_discovery']"}
+  (Session info: chrome=56.0.2924.87)
+[57.402][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[@id='model_name_discovery']"
+}
+[57.402][INFO]: Waiting for pending navigations...
+[57.405][INFO]: Done waiting for pending navigations. Status: ok
+[57.417][INFO]: Waiting for pending navigations...
+[57.419][INFO]: Done waiting for pending navigations. Status: ok
+[57.419][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='model_name_discovery']"}
+  (Session info: chrome=56.0.2924.87)
+[57.925][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[@id='model_name_discovery']"
+}
+[57.925][INFO]: Waiting for pending navigations...
+[57.927][INFO]: Done waiting for pending navigations. Status: ok
+[57.934][INFO]: Waiting for pending navigations...
+[57.935][INFO]: Done waiting for pending navigations. Status: ok
+[57.936][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='model_name_discovery']"}
+  (Session info: chrome=56.0.2924.87)
+[58.444][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[@id='model_name_discovery']"
+}
+[58.444][INFO]: Waiting for pending navigations...
+[58.446][INFO]: Done waiting for pending navigations. Status: ok
+[58.458][INFO]: Waiting for pending navigations...
+[58.459][INFO]: Done waiting for pending navigations. Status: ok
+[58.460][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='model_name_discovery']"}
+  (Session info: chrome=56.0.2924.87)
+[58.967][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[@id='model_name_discovery']"
+}
+[58.967][INFO]: Waiting for pending navigations...
+[58.969][INFO]: Done waiting for pending navigations. Status: ok
+[58.978][INFO]: Waiting for pending navigations...
+[58.980][INFO]: Done waiting for pending navigations. Status: ok
+[58.980][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='model_name_discovery']"}
+  (Session info: chrome=56.0.2924.87)
+[59.490][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[@id='model_name_discovery']"
+}
+[59.490][INFO]: Waiting for pending navigations...
+[59.494][INFO]: Done waiting for pending navigations. Status: ok
+[59.507][INFO]: Waiting for pending navigations...
+[59.509][INFO]: Done waiting for pending navigations. Status: ok
+[59.509][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='model_name_discovery']"}
+  (Session info: chrome=56.0.2924.87)
+[60.018][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[@id='model_name_discovery']"
+}
+[60.018][INFO]: Waiting for pending navigations...
+[60.020][INFO]: Done waiting for pending navigations. Status: ok
+[60.033][INFO]: Waiting for pending navigations...
+[60.035][INFO]: Done waiting for pending navigations. Status: ok
+[60.035][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='model_name_discovery']"}
+  (Session info: chrome=56.0.2924.87)
+[60.544][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[@id='model_name_discovery']"
+}
+[60.544][INFO]: Waiting for pending navigations...
+[60.546][INFO]: Done waiting for pending navigations. Status: ok
+[60.558][INFO]: Waiting for pending navigations...
+[60.560][INFO]: Done waiting for pending navigations. Status: ok
+[60.560][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='model_name_discovery']"}
+  (Session info: chrome=56.0.2924.87)
+[61.068][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[@id='model_name_discovery']"
+}
+[61.068][INFO]: Waiting for pending navigations...
+[61.070][INFO]: Done waiting for pending navigations. Status: ok
+[61.082][INFO]: Waiting for pending navigations...
+[61.084][INFO]: Done waiting for pending navigations. Status: ok
+[61.084][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='model_name_discovery']"}
+  (Session info: chrome=56.0.2924.87)
+[61.592][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[@id='model_name_discovery']"
+}
+[61.592][INFO]: Waiting for pending navigations...
+[61.594][INFO]: Done waiting for pending navigations. Status: ok
+[61.605][INFO]: Waiting for pending navigations...
+[61.607][INFO]: Done waiting for pending navigations. Status: ok
+[61.607][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='model_name_discovery']"}
+  (Session info: chrome=56.0.2924.87)
+[62.114][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[@id='model_name_discovery']"
+}
+[62.114][INFO]: Waiting for pending navigations...
+[62.116][INFO]: Done waiting for pending navigations. Status: ok
+[62.130][INFO]: Waiting for pending navigations...
+[62.132][INFO]: Done waiting for pending navigations. Status: ok
+[62.132][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='model_name_discovery']"}
+  (Session info: chrome=56.0.2924.87)
+[62.646][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[@id='model_name_discovery']"
+}
+[62.646][INFO]: Waiting for pending navigations...
+[62.648][INFO]: Done waiting for pending navigations. Status: ok
+[62.663][INFO]: Waiting for pending navigations...
+[62.665][INFO]: Done waiting for pending navigations. Status: ok
+[62.665][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='model_name_discovery']"}
+  (Session info: chrome=56.0.2924.87)
+[63.175][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[@id='model_name_discovery']"
+}
+[63.175][INFO]: Waiting for pending navigations...
+[63.177][INFO]: Done waiting for pending navigations. Status: ok
+[63.187][INFO]: Waiting for pending navigations...
+[63.188][INFO]: Done waiting for pending navigations. Status: ok
+[63.189][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='model_name_discovery']"}
+  (Session info: chrome=56.0.2924.87)
+[63.696][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[@id='model_name_discovery']"
+}
+[63.696][INFO]: Waiting for pending navigations...
+[63.697][INFO]: Done waiting for pending navigations. Status: ok
+[63.704][INFO]: Waiting for pending navigations...
+[63.704][INFO]: Done waiting for pending navigations. Status: ok
+[63.705][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='model_name_discovery']"}
+  (Session info: chrome=56.0.2924.87)
+[64.213][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[@id='model_name_discovery']"
+}
+[64.213][INFO]: Waiting for pending navigations...
+[64.215][INFO]: Done waiting for pending navigations. Status: ok
+[64.228][INFO]: Waiting for pending navigations...
+[64.231][INFO]: Done waiting for pending navigations. Status: ok
+[64.231][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='model_name_discovery']"}
+  (Session info: chrome=56.0.2924.87)
+[64.739][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[@id='model_name_discovery']"
+}
+[64.739][INFO]: Waiting for pending navigations...
+[64.741][INFO]: Done waiting for pending navigations. Status: ok
+[64.751][INFO]: Waiting for pending navigations...
+[64.753][INFO]: Done waiting for pending navigations. Status: ok
+[64.753][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='model_name_discovery']"}
+  (Session info: chrome=56.0.2924.87)
+[65.260][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[@id='model_name_discovery']"
+}
+[65.260][INFO]: Waiting for pending navigations...
+[65.262][INFO]: Done waiting for pending navigations. Status: ok
+[65.274][INFO]: Waiting for pending navigations...
+[65.276][INFO]: Done waiting for pending navigations. Status: ok
+[65.276][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='model_name_discovery']"}
+  (Session info: chrome=56.0.2924.87)
+[65.802][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[@id='model_name_discovery']"
+}
+[65.802][INFO]: Waiting for pending navigations...
+[65.803][INFO]: Done waiting for pending navigations. Status: ok
+[65.806][INFO]: Waiting for pending navigations...
+[65.807][INFO]: Done waiting for pending navigations. Status: ok
+[65.807][INFO]: RESPONSE FindElement no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='model_name_discovery']"}
+  (Session info: chrome=56.0.2924.87)

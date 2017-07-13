@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="org.jlrdigital.rv.test.seleniumtest.sm.tests.RVLogin">
+        <methods>
+          <include name="LandroverusercantLoginWithValidtusernameEmptyPassword"/>
+          <include name="LandroverusercantLoginWithIncorrectusernamePassword"/>
+          <include name="setUp"/>
+          <include name="JaguarusercantLoginWithIncorrectPassword"/>
+          <include name="LandroverusercantLoginWithEmptytusernameValidPassword"/>
+          <include name="JaguarusercantLoginWithIncorrectUsername"/>
+          <include name="JaguarusercantLoginWithIncorrectUsernamePassword"/>
+          <include name="LandroverusercantLoginWithEmptytusernamePassword"/>
+          <include name="JaguarusercantLoginEmptyUsernameValidPassword"/>
+          <include name="tearDown"/>
+          <include name="LandroverusercantLoginWithIncorrectPassword"/>
+          <include name="JaguarusercantLoginEmptyUsernamePassword"/>
+          <include name="LandroverusercantLoginWithIncorrectusername"/>
+          <include name="JaguarusercantLoginValidUsernameEmptyPassword"/>
+        </methods>
+      </class> <!-- org.jlrdigital.rv.test.seleniumtest.sm.tests.RVLogin -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
